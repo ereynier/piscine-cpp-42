@@ -6,7 +6,7 @@
 /*   By: ereynier <ereynier@student.le-101.fr>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/05/20 18:59:40 by ereynier          #+#    #+#             */
-/*   Updated: 2020/05/20 19:35:30 by ereynier         ###   ########lyon.fr   */
+/*   Updated: 2020/06/14 20:17:52 by ereynier         ###   ########lyon.fr   */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -16,7 +16,7 @@ Data *deserialize(void *raw)
 {
     Data *out = new Data;
     int i = 0;
-    char *r = (char*)raw;
+    unsigned char *r = (unsigned char*)raw;
 
     out->s1 = "";
     out->s2 = "";
